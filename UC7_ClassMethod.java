@@ -7,7 +7,7 @@ public class UC7_ClassMethod {
 	int workinghrs, days, sal,sal1,sal2;
 	UC7_ClassMethod()
     {
-    	System.out.println("Enter Number of Working Hours:");
+    	System.out.println("Enter Numberof Working Hours:");
         workinghrs = get.nextInt();
     }
     public void calculatepay()
@@ -16,7 +16,7 @@ public class UC7_ClassMethod {
     }
     public void monthwisepay()
     {
-    	System.out.println("Enter Number of Working Days:");
+    	System.out.println("Enter Numberof Working Days:");
     	days = get.nextInt();
     	sal1 = 20 * days * 8;
     }
